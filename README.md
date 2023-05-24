@@ -7,7 +7,7 @@ Includes all .stl files ready for 3D printing. Also includes .f3z file which ena
 **Laser-Cuttable Parts** 
 Includes all .dxf files ready for laser cutting in mm scale. Also includes .f3z file which enables editing of the intial proejct in Fusion 360. 
 
-**CODE**  
+**Code**  
 Sensor.ino 
 Script used to control Arduino operations: LED operation, stage movement via stepper motor, PWM brightness control. 
 
