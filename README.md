@@ -13,14 +13,15 @@ Script used to control Arduino operations: LED operation, stage movement via ste
 
 Sensor.py
 Script used to automate data collection and enable manual control of sensor. Operates with Raspberry Pi. Includes camera visualization and stabilization and graphical user interface. Prior to use, several packages must be downloaded. In terminal, call these commands:
-  # to enable access to the HQ camera
+    # enable access to HQ camera
     sudo raspiconfig --> enable camera  
     
-  # to download appropriate packages
+    # download appropriate packages
     sudo apt-get install -y picamera time serial libatlas-base-dev libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev  libqtgui4  libqt4-test python3-gi-cairo
     
+    # download appropriate packages
     sudo pip3 install pyseimplegui numpy opencv-contrib-python opencv-python       matplotlib tifffile 
     
-  # set color correction to 0 and enable access to pixels 
+    # set color correction to 0 and enable access to pixels 
     sudo vcdbg set imx477_dpc 0  
     
