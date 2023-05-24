@@ -5,7 +5,7 @@ Holds 3D models and code for glomerular basement membrane on chip functional ass
 Includes all .stl files ready for 3D printing. Also includes .f3z file which enables editing of the intitial project in Fusion 360. 
 
 **Laser-Cuttable Parts** 
-Includes all .dxf files ready for laser cutting in mm scale. Also includes .f3z file which enables editing of the intial proejct in Fusion 360. 
+Includes all .dxf files ready for laser cutting in mm scale. Includes chip design files (/Chip) and optical path casing (/Optical Path Casing). Also includes .f3z file which enables editing of the intial proejct in Fusion 360. 
 
 **Code**  
 Sensor.ino 
