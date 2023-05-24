@@ -13,6 +13,7 @@ Script used to control Arduino operations: LED operation, stage movement via ste
 
 Sensor.py
 Script used to automate data collection and enable manual control of sensor. Operates with Raspberry Pi. Includes camera visualization and stabilization and graphical user interface. Prior to use, several packages must be downloaded. In terminal, call these commands:
+
     # enable access to HQ camera
     sudo raspiconfig --> enable camera  
     
